@@ -2251,9 +2251,10 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 
+
 #email{
 	font-family: lora-regular, serif;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -2261,7 +2262,18 @@ header .logo a {
 	font-color:white;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); 
 	margin-top: 4rem;
+
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
+#email:hover, #email:focus, #email:active {
+	color: #FF0077;
+	outline: 0;
+}
+
 
 #emailTwo{
 	font-family: lora-regular, serif;
@@ -2273,6 +2285,17 @@ header .logo a {
 	font-color:white;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); 
 	margin-top: 4rem;
+
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#emailTwo:hover, #emailTwo:focus, #emailTwo:active {
+	color: #FF0077;
+	outline: 0;
 }
 
 #contact {
