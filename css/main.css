@@ -83,6 +83,7 @@ body {
  */
 a, a:visited {
 	color: #000000;
+	color: white;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1791,7 +1792,7 @@ header .logo a {
  */
 #portfolio {
 	background: #FFFFFF;
-	padding-top: 12rem;
+	/*padding-top: 12rem;*/
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
@@ -2249,9 +2250,34 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+
+#email{
+	font-family: lora-regular, serif;
+	font-size: 2.5rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	font-color:white;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); 
+	margin-top: 4rem;
+}
+
+#emailTwo{
+	font-family: lora-regular, serif;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	font-color:white;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); 
+	margin-top: 4rem;
+}
+
 #contact {
 	background: #151515;
-	padding-top: 12rem;
+	/*padding-top: 12rem;*/
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
